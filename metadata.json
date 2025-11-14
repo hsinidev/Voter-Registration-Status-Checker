@@ -1,0 +1,5 @@
+{
+  "name": "Voter Registration Status Checker",
+  "description": "A modern, high-fidelity placeholder UI to check your voter registration status in the US. This tool simulates the process of gathering personal details required by state databases and provides instructional guidance for next steps.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Check Your Voter Registration Status | Secure & Instant</title>
+    <meta name="description" content="Instantly check your voter registration status with our secure and user-friendly tool. Enter your details to get placeholder guidance for verifying your registration on official state websites. Be prepared for the next election." />
+    <meta name="keywords" content="voter registration, check registration status, vote, election, civic engagement, voter lookup, us elections" />
+    <meta name="author" content="HSINI MOHAMED" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:title" content="Check Your Voter Registration Status | Secure & Instant" />
+    <meta property="og:description" content="Instantly check your voter registration status with our secure and user-friendly tool. A modern UI to simulate the process and guide you to official resources." />
+    <meta property="og:image" content="https://example.com/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://example.com/" />
+    <meta property="twitter:title" content="Check Your Voter Registration Status | Secure & Instant" />
+    <meta property="twitter:description" content="Instantly check your voter registration status with our secure and user-friendly tool. A modern UI to simulate the process and guide you to official resources." />
+    <meta property="twitter:image" content="https://example.com/og-image.png" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* For smooth collapse/expand transition */
+        .grid-rows-collapse {
+            grid-template-rows: 0fr;
+        }
+        .grid-rows-expand {
+            grid-template-rows: 1fr;
+        }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              'brand-blue': '#2E3A87',
+              'brand-red': '#B31942',
+              'brand-gold': '#FFD700',
+            },
+          },
+        },
+      }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "Voter Registration Status Checker",
+          "url": "https://example.com/",
+          "description": "Check your voter registration status in the United States with our secure and easy-to-use tool.",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://example.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Voter Registration Status Checker",
+          "url": "https://example.com/",
+          "applicationCategory": "GovernmentService",
+          "operatingSystem": "Any",
+          "offers": {
+            "@type": "Offer",
+            "price": "0"
+          },
+          "description": "A placeholder UI to simulate checking voter registration status by collecting necessary personal information."
+        },
+        {
+          "@type": "Article",
+          "headline": "The Ultimate Guide to Voter Registration, Civic Engagement, and Election Integrity",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Voter Registration Status Checker",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://example.com/favicon.svg"
+            }
+          },
+          "datePublished": "2023-10-27",
+          "mainEntityOfPage": "https://example.com/",
+          "articleBody": "Voter registration is the cornerstone of a functioning democracy, ensuring that every eligible citizen has the opportunity to cast a ballot and make their voice heard. This comprehensive guide delves into the importance of registering to vote, understanding election processes, and promoting civic engagement and election integrity..."
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Why do I need to register to vote?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Voter registration is a legal requirement in almost every U.S. state to prevent fraud and ensure that only eligible citizens participate in elections. It creates a formal record of voters in a given jurisdiction, which helps election officials manage polling places, print the correct number of ballots, and verify voters' identities on Election Day."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I register to vote on Election Day?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This depends on your state. Some states offer Same-Day Registration (SDR), allowing you to register and vote at the same time on Election Day or during an early voting period. However, many states require you to register weeks in advance. It's crucial to check your state's specific deadlines."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What's the difference between a primary and a general election?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A primary election is a preliminary election where voters from each political party select their candidates to run in the general election. A general election is the main event where voters choose from the candidates nominated in the primaries to fill the actual government offices."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-white">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
